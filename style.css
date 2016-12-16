@@ -1,0 +1,365 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v1/iJ4p9wO0GDKJ-D5teKuZqiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v1/iJ4p9wO0GDKJ-D5teKuZqo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.mw-body {
+    background-color: #333333;
+    color: #dddddd;
+    font-size: 1.1em;
+    font-family: 'Nunito Sans'!important;
+    text-align: justify;
+    margin-top: -1.3em;
+    margin-left: 12.6em;
+}
+
+body, #mw-panel,#mw-head{
+    background-image: none;
+    background-color: #2d2d2d;
+    color:white;
+}
+
+.toc,#toc{
+    background-color: #1d1d1d!important;
+    color: black;
+    margin-top: 2em;
+    border: solid 3px rgba(255,255,255,0.2);
+    padding: 0.4em;
+    font-size: 0.8em;
+}
+
+div.quotebox{
+    background-color: #1d1d1d!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+     color: #eeeeee;
+     font-size: 140%;
+}
+
+
+div.portal h3{
+    color: white!important;
+}
+
+div.portal div.body ul li a,a:visited, div#mw-panel div.portal div.body ul li a:visited, div#mw-panel div.portal div.body ul li a{
+    color: #a5ccff;
+}
+
+#mw-content-text a, #mw-content-text > p a, table.infobox a, #catlinks a, ul li a, #mw-content-text > ul > li a, table.wikitable a, #right-navigation a, div.thumbcaption a, div.hatnote a, table.infobox a.external, dl a, div.quotebox a, #mw-panel a, .toc a, #mw-content-text ol li a, table.metadata i a, .mw-body a.external:visited, span.citation a,  .navbox *[style] a, .vertical-navbox *[style] a, blockquote a, div.boilerplate a, table.infobox th a {
+    color: #a5ccff;
+}
+
+div.boilerplate span{
+    color: #dddddd;
+}
+
+a.extiw, a.extiw:visited{
+    color: #bce0ff!important;
+}
+
+table.wikitable th > a{
+    color: #2a7cc1;
+}
+
+td[bgcolor]{
+    color: black;
+}
+
+td[style='text-align:left;'] a, td[style='text-align:center'] a{
+    color: #a5ccff;
+}
+
+table.infobox a, table.infobox a:visited{
+    color: #a5ccff;
+}
+
+a.new, a.new:visited, #p-personal a.new, #p-personal a.new:visited{
+    color: #ff9393;
+}
+
+a:hover{
+    color: rgb(255, 118, 50)!important;
+    text-decoration: none;
+}
+
+.ombox{
+    color: #111111;
+}
+
+
+.infobox, .vertical-navbox{
+    background-color: #4a4a4a;
+    color: #dddddd;
+    margin: 1em 0.8em 2em 1.8em;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+
+
+
+#footer > li{
+    color: white!important;
+}
+
+
+#content{
+    border-left: solid 1px rgba(255,255,255,0.2);
+    border-top: solid 1px rgba(255,255,255,0.2);
+    border-bottom: solid 1px rgba(255,255,255,0.2);
+    margin-top: 6.5em;
+}
+
+
+#p-logo{
+    display: none;
+}
+
+
+div#mw-panel{
+    margin-top:0em;
+    font-size: 1.2em;
+    top: 1.8em;
+    background-image: url("http://i.imgur.com/pQ6t1pM.png");
+    background-repeat: no-repeat;
+    background-size: 9em;
+    background-position-x: 50%;
+    padding-top: 6em;
+}
+
+
+div.vectorTabs, div.vectorTabs ul li, div.vectorTabs li.selected, div.vectorTabs span, div.vectorTabs ul, #p-views{
+    background-image: none;
+    background-color: inherit;
+}
+
+
+#mw-head-base{
+    margin-top: -3em;
+}
+
+
+#right-navigation{
+    margin-top: 4em;
+}
+
+
+div#simpleSearch{
+    height: 2em;
+}
+
+
+div#simpleSearch #searchInput{
+    height: 100%;
+    font-size: 100%;
+}
+
+
+#p-cactions{
+    display: none;
+}
+
+
+#mw-page-base{
+    height: 7em;
+    background-image:none;
+    background-color: inherit;
+}
+
+
+#pt-anonuserpage{
+    color: #dddddd;
+}
+
+
+div#footer ul li{
+    color: #dddddd;
+}
+
+span.mw-editsection{
+    display: none;
+}
+
+.tocnumber{
+    color: #d5d5d5;
+}
+
+
+div.thumbinner{
+    background-color: #555555;
+    color: white;
+    padding: 0;
+}
+
+div.thumbinner img{
+    border: none;
+}
+
+div.thumbcaption{
+    padding: 4px;
+}
+
+#contentSub > span{ /*Redirected from... */
+	display:none;
+}
+
+#siteSub{
+    display: none;
+}
+
+div.hatnote{
+    font-size: 0.8em;
+}
+
+#left-navigation{
+    display: none;
+}
+
+div.catlinks{
+    background-color: #1d1d1d;
+    border: solid 2px rgba(255,255,255,0.2);
+    font-size: 0.8em;
+}
+
+div#footer{
+    margin-left: 12.6em;
+}
+
+#footer-info-copyright{
+    display:none;
+}
+
+td.mbox-image{
+    display:none;
+}
+
+.ambox{
+    display:none;
+}
+
+li{
+    list-style-image: none;
+}
+
+#n-sitesupport, #n-shoplink, #n-contents, #n-featuredcontent, #p-interaction, #p-tb, #p-coll-print_export, .after-portlet-lang, #footer-places, #footer-icons, .sistersitebox, .reflist, .noprint, .reference, #mw-content-text > div.noprint.portal.plainlist.tright, div.refbegin {
+    display:none;
+}
+
+.wikitable tr:nth-child(2n){
+    background-color: #484848;
+}
+
+.wikitable tr:nth-child(2n+1){
+    background-color: #3a3a3a;
+}
+
+table.wikitable{
+    color: #dddddd;
+}
+
+table th{
+    color: #3d3d3d;
+    background-color: #dddddd;
+}
+
+table.infobox th, table.infobox td, table.infobox ul li, table.vertical-navbox th, table.vertical-navbox td{
+    background-color: #4a4a4a!important;
+    color: #dddddd!important;
+}
+
+span.languageicon{
+    color: #8c9a9a!important;
+}
+
+div#mw-panel div.portal#p-navigation{
+    margin: 0 0.6em 0em 1.25em;
+}
+
+div#mw-panel div.portal{
+    background-image: none;
+}
+
+div#mw-panel div.portal h3{
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+#p-lang > span{
+    display: none;
+}
+
+#coordinates{
+    margin-top: 1em;
+}
+
+.mw-body h1, .mw-body h2{
+    border-bottom: solid 1px rgba(255,255,255,0.2);
+    font-family: 'Nunito Sans';
+}
+
+.vertical-navbox{
+    background-color: inherit!important;
+    color: #dddddd;
+}
+
+.navbox-inner{
+    color: #dddddd;
+}
+
+table.toccolours{
+    color: #2d2d2d;
+}
+
+table.metadata{
+    font-size: 0.8em;
+}
+
+#References, ol.references{
+    display:none;
+}
+
+div.navbox{
+    background: inherit;
+	margin: 5px;
+}
+
+div.navbox table tr, td.navbox-list{
+    background-color: #4a4a4a!important;
+}
+
+div.navbox th.navbox-title{
+    background-color: #2d2d2d;
+    color: #dddddd;
+}
+
+div.navbox th.navbox-group{
+    background-color: #1d1d1d!important;
+    color: #dddddd!important;
+}
+
+a[title="Help:Category"]{
+    color:#7eff94!important;
+}
+
+table th a{
+    color:#2d68b5;
+}
+
+td.navbox-abovebelow{
+    background-color: #383838!important;
+    color: #dddddd!important;
+}
+
